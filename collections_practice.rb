@@ -37,7 +37,12 @@ end
 
 def add_s(string)
   return string.collect {|word| 
-    word << "s"
+
+    if word =="feet"
+      word
+    else
+      word << "s" 
+    end
     
   }
   
