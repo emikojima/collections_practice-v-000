@@ -38,7 +38,7 @@ end
 def add_s(string)
   return string.collect {|word| 
 
-    if word =="feet"
+    if word == "feet"
       word
     else
       word << "s" 
