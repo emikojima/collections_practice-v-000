@@ -36,15 +36,12 @@ def sum_array(num)
 end
 
 def add_s(string)
-  return string.collect {|word| 
-
-    if word == "feet"
+  return string.collect { |word| 
+    if word == string[1]
       word
     else
       word << "s" 
     end
-    
   }
-  
 end
 
