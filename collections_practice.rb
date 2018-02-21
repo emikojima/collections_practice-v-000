@@ -36,6 +36,10 @@ def sum_array(num)
 end
 
 def add_s(string)
-  return string.collect {|word| word << "s"}
+  return string.collect {|word| 
+    word << "s"
+    
+  }
+  
 end
 
